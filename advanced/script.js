@@ -24,18 +24,20 @@ $(document).ready(function(){
 			  "10",
 ];
 
-let randomCards = [];
 
-    for (let x = 1; x < 11; x++) {
-    	var r = (Math.floor(Math.random()*values.length));
-    	randomCards.push(values[r]);
-    	values.splice(r,1);
-    }
+
 
    for (i = 0; i < 10; i++) {
-   		$(".topcardSlots").append(`<div class="topCard" id="card${i}">${randomCards[i]}</div>`)
+   		$(".topcardSlots").append(`<div class="topCard" id="card${i}">${values[i]}</div>`)
    		
    }
+
+   var shuffle = document.querySelector('.topcardSlots');
+for (var i = shuffle.children.length; i >= 0; i--) {
+    shuffle.appendChild(shuffle.children[Math.random() * i | 0]);
+}
+
+
 
    $(".topCard").css({
 			"width":"40px",
