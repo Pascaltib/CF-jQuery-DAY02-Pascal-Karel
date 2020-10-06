@@ -1,0 +1,23 @@
+.cardSlots {
+	width: 500px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.topcardSlots {
+	width: 500px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 10px;
+}
