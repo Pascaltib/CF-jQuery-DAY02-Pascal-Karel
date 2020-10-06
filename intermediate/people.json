@@ -1,0 +1,44 @@
+var  people = `[{
+    "name": "Marie",
+    "image": "img/person_1",
+    "relation": "sister",
+    "close_family":true,
+    "hobby": "skating"
+},{
+    "name": "Tom",
+    "image": "img/person_2",
+    "relation": "brother",
+    "close_family":true,
+    "hobby": "reading"
+},{
+    "name": "Teacher",
+    "image": "img/person_3",
+    "relation": "father",
+    "close_family":true,
+    "hobby": "surfing"
+},{
+    "name": "Stockfoto mom",
+    "image": "img/person_4",
+    "relation": "mother",
+    "close_family":true,
+    "hobby": "Coding"
+},{
+    "name": "Stockfoto friend",
+    "image": "img/person_5",
+    "relation": "friend",
+    "close_family":false,
+    "hobby": "Cooking"
+},{
+    "name": "Who is she!?",
+    "image": "img/person_6",
+    "relation": "grandmother",
+    "close_family":false,
+    "hobby": "Playing video games"
+},{
+    "name": "Edison",
+    "image": "img/person_7",
+    "relation": "weird uncle",
+    "close_family":false,
+    "hobby": "Stealing ideas"
+}
+]`
